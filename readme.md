@@ -1,7 +1,9 @@
-## Old images
+# Old images
+
+## dotnet-library-test
+Docker Hub: https://hub.docker.com/repository/docker/hullcritical/dotnet-library-test
 
 ### dotnet-library-test:release-glibc-v6
-.Net 6
 
 Built from  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-6/Dockerfile.glibc
@@ -10,7 +12,6 @@ Used by
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-6/Dockerfile.glibc.runner#L10
 
 ### dotnet-library-test:release-musl
-.Net 5
 
 Built from  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-5/Dockerfile.musl
@@ -20,17 +21,16 @@ https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-5/Dockerf
 
 ### dotnet-library-test:release-glibc
 
-.Net 5
-
 Built from  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-5/Dockerfile.glibc
 
 Used by  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-5/Dockerfile.glibc.runner#L10
 
-### aspnetcore:5
+## aspnetcore
+Docker Hub: https://hub.docker.com/repository/docker/hullcritical/aspnetcore
 
-ASP.NET 5
+### aspnetcore:5
 
 Built from  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/aspnetcore5/Dockerfile.aspnet5
@@ -38,12 +38,12 @@ https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/aspnetcore5/Dockerfi
 Used by  
 https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/aspnetcore5/Dockerfile.runner#L9
 
-## New images
+# New images
 
 There should be two repos
 
 ## dotnet-library-test
-Tag
+Tag:
 * release-glibc-v6  
     Built from https://github.com/asvrada/mystikos/blob/dotnet_lib_6/tests/dotnet-lib-6/Dockerfile.glibc
 * release-musl-v5  
